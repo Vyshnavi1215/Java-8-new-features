@@ -2,7 +2,7 @@
 
 Java 8 features in simple way
 
-
+11/05
 New features of JAVA 8
 
 1.Lambda expression.
@@ -38,7 +38,27 @@ Benefits of Lambda- To enable Functional programming in JAVA.
                     To use API's very easily and effectively.
                     To enable the parallel processsing.
                     
-                    
+ 
+ 12/05
+ How to write Lambda expressions:
+
+Its an anonymous function-nameless function. It does not have modifiers and return type.
+
+Simple lambda expression
+
+() -> { System.out.println("Hello");} (Arrow symbol to indicate anonymous function).
+
+If you are aware of writing a method in JAVA, anonymous function is very simple to write.
+
+If the body of the lambda expression contains only one statement, then curly braces are optional.
+
+Based on the context if the compiler able to guess/identify the data types automatically then that is called Type Inference
+
+
+
+
+
+
 
 
 
