@@ -103,6 +103,8 @@ public static void m3(){}
 }
 
 
+use of functional interface is to invole the lambda expression.
+
 
 
 
