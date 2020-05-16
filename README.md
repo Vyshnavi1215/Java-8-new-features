@@ -72,7 +72,21 @@ ex-(s)->S.O.P(s.length()); can be written as s->S.O.P(s.length());
 
 Ex- (int a, int b)->S.O.P(a+b); this can be written as (a,b)->S.O.P(a+b);
 
-4.Return keyword can also be removed if the compiler is 
+4.If lambda expression returns something then we can remove return keyword.
+
+Ex- s-> return s.length(); can be written as s->s.length();
+
+Functional Interface:
+
+Actually a lambda expression is also a method, it should be called somewhere based on our requirement.
+
+To invoke this lambda expression we require Functional Interface.
+
+First what is functional Interface -
+
+This is will have only one abstract method.
+
+
 
 
 
