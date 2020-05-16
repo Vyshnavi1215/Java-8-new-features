@@ -84,7 +84,9 @@ To invoke this lambda expression we require Functional Interface.
 
 First what is functional Interface -
 
-This is will have only one abstract method.
+If the interface has only one abstract method then it is called as Functional Interface.
+
+Example-Runnable and Callable.
 
 
 
