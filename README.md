@@ -84,9 +84,24 @@ To invoke this lambda expression we require Functional Interface.
 
 First what is functional Interface -
 
-If the interface has only one abstract method then it is called as Functional Interface.
+If the interface has only one abstract method then it is called as Functional Interface. [Single Abstract Method(SAM)]
 
 Example-Runnable and Callable.
+
+Restriction is only for Abstract method.
+
+Example:
+
+interface Interf{
+
+public void m1();
+
+default void m2(){}
+
+public static void m3(){}
+
+}
+
 
 
 
