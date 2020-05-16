@@ -55,6 +55,14 @@ If the body of the lambda expression contains only one statement, then curly bra
 Based on the context if the compiler able to guess/identify the data types automatically then that is called Type Inference
 
 
+05/16
+
+Properties of lamba expression
+
+1.A lambda expression can take any number of arguments.
+ex- ()->S.O.P("Hello");
+(inta, int b)->S.O.P(a+b);
+
 
 
 
