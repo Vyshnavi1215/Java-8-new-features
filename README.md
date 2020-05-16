@@ -59,10 +59,20 @@ Based on the context if the compiler able to guess/identify the data types autom
 
 Properties of lamba expression
 
-1.A lambda expression can take any number of arguments.
+1.A lambda expression can take any number of arguments and multiple arguments need to be seperated by comma(,), for single statement in lambda expression flower braces are opetional else it is mandatory.
+
 ex- ()->S.O.P("Hello");
 (inta, int b)->S.O.P(a+b);
+()->{statement 1;stattement 2; statement 3;}
+2.In lambda expression if we have only one parameter then we can remove the braces.
 
+ex-(s)->S.O.P(s.length()); can be written as s->S.O.P(s.length());
+
+3.If the compiler is capable of identifying the date type then we can remove the type declaration as well(known as type inference).
+
+Ex- (int a, int b)->S.O.P(a+b); this can be written as (a,b)->S.O.P(a+b);
+
+4.Return keyword can also be removed if the compiler is 
 
 
 
