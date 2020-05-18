@@ -105,6 +105,14 @@ public static void m3(){}
 
 use of functional interface is to invole the lambda expression.
 
+05/18
+
+We can have any number of default and static methods but only one abstract method in functional interface.
+
+@FunctionalInterface(annotation from java 1.8).
+
+The main advantage to use this annotation is to indicate the compiler if any mistake done by the programmer.
+
 
 
 
