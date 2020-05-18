@@ -111,7 +111,7 @@ We can have any number of default and static methods but only one abstract metho
 
 @FunctionalInterface(annotation from java 1.8).
 
-The main advantage to use this annotation is to indicate the compiler if any mistake done by the programmer.
+The main advantage to use this annotation is to indicate the compiler if any mistake done by the programmer, the compiler objects that.
 
 To declare an interface explicitily as functional Interface we use @functional Interface.
 
@@ -127,6 +127,10 @@ interface interf{
        public static m3(){
        }
   }
+  
+  The above topic gives main idea of using the @FunctionalInterface annotation
+
+
 
 
 
