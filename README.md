@@ -113,6 +113,21 @@ We can have any number of default and static methods but only one abstract metho
 
 The main advantage to use this annotation is to indicate the compiler if any mistake done by the programmer.
 
+To declare an interface explicitily as functional Interface we use @functional Interface.
+
+Example -
+
+interface interf{
+        
+        public void m1();
+        
+       default void m2(){
+       }
+       
+       public static m3(){
+       }
+  }
+
 
 
 
