@@ -131,6 +131,54 @@ interface interf{
   The above topic gives main idea of using the @FunctionalInterface annotation
 
 
+05/19--
+
+Functional Interface wrt Inheritence.
+
+Case 1:-
+
+The inferface P (Parent ) is the functional interface, now the child interface inherits it, but it doesnot contain any method, then the child interface is also a functional interface.
+
+@FunctionalInterface
+interface P
+{
+public void m1();
+}
+@FunctionalInterface
+interface C extends P
+{
+}
+
+Case 2:-
+
+If the parent interface is functional and the chils interface inherits it, which has the same method as of the parent Interface then the child interface is also functional interface.
+
+@FunctionalInterface
+interface P{
+public void m();
+}
+@FunctionalInterface.
+interface C extends P{
+public void m();
+}
+
+Case 3:-
+
+If the parent Interface is the functional Interface and child interface extends and it adds its won abstract method then the child interface is not functional Interface.
+
+@FunctionalInterface
+interface P{
+public void m1();
+{
+@FunctionalInterface ////Compile time error
+interface C extends P{
+public void m2();
+}
+
+In the above child interface will have 2 abstract methods, so that is  not a functional Interface.
+
+
+
 
 
 
