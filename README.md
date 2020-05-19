@@ -177,6 +177,12 @@ public void m2();
 
 In the above child interface will have 2 abstract methods, so that is  not a functional Interface.
 
+Invoking Lamba expression by using FunctionalInterface.
+
+
+To invoke lambda expression we need functional interface.
+
+
 
 
 
