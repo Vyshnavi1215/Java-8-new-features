@@ -182,6 +182,10 @@ Invoking Lamba expression by using FunctionalInterface.
 
 To invoke lambda expression we need functional interface.
 
+05/22
+
+Invoking lambda expressions-more examples-
+
 
 
 
