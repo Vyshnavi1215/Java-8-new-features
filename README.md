@@ -186,6 +186,10 @@ To invoke lambda expression we need functional interface.
 
 Invoking lambda expressions-more examples-
 
+05/24--
+
+
+
 
 
 
