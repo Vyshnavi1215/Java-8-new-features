@@ -188,7 +188,22 @@ Invoking lambda expressions-more examples-
 
 05/24--
 
+Another examples of functional interface --
 
+example 2- sum of two numbers-
+
+example 3 - to return the length of string-
+example 4- to find the square of number
+
+Every java class contains one thread that is main thread.
+
+example 5 - write an example of lambda expression that implements Runnable.
+
+To enable functional programing in Java  Lambda expressions came.
+
+Summary of functional Interface and Lambda--
+
+Functional Interface acts as "Type
 
 
 
